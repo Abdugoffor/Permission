@@ -1,0 +1,29 @@
+{
+    "name": "kadirov/role-permission",
+    "description": "Laravel Role Permission paket",
+    "type": "library",
+
+    "autoload": {
+        "psr-4": {
+            "Kadirov\\RolePermission\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kadirov\\RolePermission\\RolePermissionServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdug'offor",
+            "email": "abdugofforqodirov19@gmail.com"
+        }
+    ]
+}
