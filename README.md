@@ -1,7 +1,11 @@
 ﻿# Permission
- 
-#composer require kadirov/role-permission
 
-##
-<tab>code/text here<tab> text
+```php
+#composer require kadirov/role-permission
+```
+```php
+Done by Ulugbek
+```
+
+
 
