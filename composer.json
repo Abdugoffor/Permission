@@ -1,7 +1,14 @@
 {
     "name": "kadirov/role-permission",
     "description": "Laravel Role Permission paket",
-    "type": "library",
+    "type": "project",
+ 
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../laravel-role-permission"
+        }
+    ],
 
     "autoload": {
         "psr-4": {
@@ -19,7 +26,13 @@
 
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "MIT",
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ]
+    },
+
     "authors": [
         {
             "name": "Abdug'offor",
